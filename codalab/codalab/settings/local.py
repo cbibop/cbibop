@@ -15,6 +15,8 @@ class Dev(DevBase):
     ############################################################
     ### For competitions
 
+    LOCAL_MATHJAX = True
+
     # Azure storage
     DEFAULT_FILE_STORAGE = 'codalab.azure_storage.AzureStorage'
     AZURE_ACCOUNT_NAME = 'portalvhdshvgybb1ww05pq'

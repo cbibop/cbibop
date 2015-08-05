@@ -81,7 +81,7 @@ class Base(Settings):
     LANGUAGE_CODE = 'en-us'
 
     SITE_ID = 1
-    CODALAB_SITE_DOMAIN = 'medici4.cloudapp.net'
+    CODALAB_SITE_DOMAIN = 'medici4.cloudapp.net:8000'
     CODALAB_SITE_NAME = 'medici4'
 
     # If you set this to False, Django will make some optimizations so as not
@@ -242,7 +242,7 @@ class Base(Settings):
     EMAIL_HOST_PASSWORD = 'coda2tester'
     EMAIL_PORT = 587
     EMAIL_USE_TLS = True
-    DEFAULT_FROM_EMAIL = 'CodaLab <info@codalab.org>'
+    DEFAULT_FROM_EMAIL = 'MEDICI <info@codalab.org>'
     SERVER_EMAIL = 'info@codalab.org'
 
     # Authentication configuration
