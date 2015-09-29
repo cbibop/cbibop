@@ -82,8 +82,8 @@ class Base(Settings):
     LANGUAGE_CODE = 'en-us'
 
     SITE_ID = 1
-    CODALAB_SITE_DOMAIN = 'codalab.org'
-    CODALAB_SITE_NAME = 'CodaLab'
+    CODALAB_SITE_DOMAIN = 'cbibop.cloudapp.net'
+    CODALAB_SITE_NAME = 'cbibop'
 
     # If you set this to False, Django will make some optimizations so as not
     # to load the internationalization machinery.
@@ -245,11 +245,11 @@ class Base(Settings):
     # Email Configuration
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_HOST = 'smtp.sendgrid.net'
-    EMAIL_HOST_USER = '--- replace with sendgrid_username ---'
-    EMAIL_HOST_PASSWORD = '--- replace with sendgrid_password ---'
+    EMAIL_HOST_USER = 'artmnv'
+    EMAIL_HOST_PASSWORD = 'coda2tester'
     EMAIL_PORT = 587
     EMAIL_USE_TLS = True
-    DEFAULT_FROM_EMAIL = 'CodaLab <info@codalab.org>'
+    DEFAULT_FROM_EMAIL = 'CBIBOP <info@codalab.org>'
     SERVER_EMAIL = 'info@codalab.org'
 
     # Authentication configuration
